@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlugin", "TestPlugin.csproj", "{5C9FF956-3448-4C35-8637-9C23B497F3B6}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "DMC", "C:\DMC\DMC Demo 1.7.2\DMC.exe", "{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\DMC\DMC Demo 1.7.2\DMC.exe
+		RemoteMachine = NESTUVELIS2
+		StartingDirectory = C:\DMC\DMC Demo 1.7.2
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|x64.ActiveCfg = Release|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{5C9FF956-3448-4C35-8637-9C23B497F3B6}.Release|x86.Build.0 = Release|Any CPU
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Debug|Any CPU.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Debug|Mixed Platforms.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Debug|x64.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Debug|x86.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Release|Any CPU.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Release|x64.ActiveCfg = Release|x86
+		{D8DEA19B-93A7-4EBE-8E2E-C5E22EE8E934}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1A57D9D-A8A6-4878-8B08-F4F0E5BF1950}
+	EndGlobalSection
+EndGlobal
