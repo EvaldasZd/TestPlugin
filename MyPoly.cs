@@ -25,7 +25,7 @@ namespace TestPlugin
         public MyPoly()
             : base(UN, FN, DESC)
         {
-            Run();
+            Compile();
         }
 
         public static ICommand Create() { return new MyPoly(); }
@@ -71,7 +71,8 @@ namespace TestPlugin
 
             // evaluate formula/variable and save value to variable
             double radius = 0;
-            if (!Evaluation.Parse("radius", ref radius)) return false;
+            //if (!Evaluation.Parse("radius", ref radius)) return false;
+            if (!Evaluation.Parse("100", ref radius)) return false;
 
             // generate polygon
             List<Vector3> points = new List<Vector3>();
@@ -82,6 +83,8 @@ namespace TestPlugin
             {
                 points.Add(new Vector3(radius * Math.Cos(i * angle_increment * Geometry.deg2rad), radius * Math.Sin(i * angle_increment * Geometry.deg2rad), 0));
             }
+
+            points = CornersRounder.RoundCorners(points, 10);
 
             PolylineCommand p = new PolylineCommand(points, true);
 
